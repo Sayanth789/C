@@ -23,3 +23,20 @@ Common algorithms that use Divide and Conquer include:
 * Quick Sort
 * Binary Search
 * Strassen's Matrix Multiplication
+
+You can find 🔭 these file form the link from below.
+
+### 🔹 mergesort(using Merge Sort)
+
+Counts the number of inversions in an array while sorting it using Merge Sort.
+
+📄 **Implementation:**
+[mergeSort.c](../Sorting/mergeSort.c)
+
+---
+
+### 🔹 Quicksort
+
+
+📄 **Implementation:**
+[quicksort.c](../Sorting/quicksort.c)
