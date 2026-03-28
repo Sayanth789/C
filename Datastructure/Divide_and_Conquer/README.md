@@ -31,7 +31,7 @@ You can find 🔭 these file form the link from below.
 Counts the number of inversions in an array while sorting it using Merge Sort.
 
 📄 **Implementation:**
-[mergeSort.c](../Sorting/mergeSort.c)
+[mergeSort.c](../../Sorting/mergeSort.c)
 
 ---
 
@@ -39,4 +39,4 @@ Counts the number of inversions in an array while sorting it using Merge Sort.
 
 
 📄 **Implementation:**
-[quicksort.c](../Sorting/quicksort.c)
+[quicksort.c](../../Sorting/quicksort.c)
