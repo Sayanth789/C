@@ -66,13 +66,14 @@ Build the solutions **step by step**
 Uses **loops and tables.**
 
 Here is an example: 
+```
 dp[0] = 0
 dp[1] = 1
 dp[2] = dp[1] + dp[0]
 dp[3] = dp[2] + dp[1]
 dp[4] = dp[3] + dp[2]
 dp[5] = dp[4] + dp[3]
-
+```
 ### Examples of Dynamic Programming Algorithms
 
 * Fibonacci sequence
