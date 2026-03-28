@@ -47,7 +47,7 @@ fib(6)
 = (fib(4) + fib(3)) + (fib(3) + fib(2))
 ```
 Here you can see fib(3) is computed twice and so is the fib(4) , With memoization: 
-      fib(3) → computed once
+      fib(3) and fib(4) are  computed once ->
       store result
       next time → reuse stored value 
       ... err what..??? 
