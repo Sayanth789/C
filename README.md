@@ -11,47 +11,53 @@ The goal of this repository is to serve as a **reference and learning resource**
 # 📂 Repository Navigation
 
 Click the folders below to explore the code.
+# 📂 Repository Navigation
 
-* 📁 [Algorithms](./algorithms)
-* 📁 [Data Structures](./data_structures)
-* 📁 [Pointer Experiments](./pointers)
-* 📁 [System Experiments](./experiments)
-* 📁 [Utilities](./utilities)
+Click a folder below to explore the implementations.
+
+* 📁 [Datastructure](./Datastructure)
+* 📁 [Dynamic Programming](./DynamicProgramming)
+* 📁 [Sorting Algorithms](./Sorting)
+* 📁 [Graphs](./graphs)
+* 📁 [Search Algorithms](./search)
+* 📁 [Queues](./queue)
+* 📁 [Pointers](./pointers)
+* 📁 [Bit Manipulation](./bit_manipulation)
+* 📁 [TCP Client-Server Example](./basic_client_server_tcp)
+* 📁 [Mathematical Algorithms (x^y)](./x_power_y)
 
 ---
 
-# 📚 What This Repository Contains
+# 📚 Topics Covered
 
-### Core C Programming
-
-* Variables and data types
-* Control flow
-* Functions
-* Memory management
-* File handling
+This repository includes implementations and experiments related to:
 
 ### Algorithms
 
-* Searching algorithms
 * Sorting algorithms
-* Mathematical algorithms
-* Problem solving implementations
+* Search algorithms
+* Graph algorithms
+* Dynamic programming
 
 ### Data Structures
 
-* Arrays
-* Linked Lists
-* Stacks
 * Queues
-* Trees
-* Hashing concepts
+* Linked list based implementations
+* Basic structure implementations
 
-### System-Level Experiments
+### Low Level Programming
 
+* Pointer experiments
 * Memory manipulation
-* Pointer usage
-* Low-level data handling
-* Performance experimentation
+* Bit manipulation tricks
+
+### Systems Programming
+
+* TCP client/server communication in C
+
+### Mathematical Algorithms
+
+* Efficient power calculation (`x^y`)
 
 ---
 
