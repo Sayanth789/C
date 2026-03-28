@@ -1,4 +1,5 @@
-This contain  Divide and Conquer Algorithm : What is Divide and Conquer ???## Divide and Conquer
+This contain  Divide and Conquer Algorithm : `What is Divide and Conquer ??? 🤔`
+## Divide and Conquer
 
 **Divide and Conquer** is an algorithm design technique where a problem is solved by breaking it into smaller subproblems.
 
