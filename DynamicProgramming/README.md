@@ -39,17 +39,24 @@ int main() {
 }
 ```
 **Guys** notice  that the function fib() is called inside the fib() function. It is called recursion. -- In case if that help. [ I ain't meant to sugarcoat things 🐈]
-
-fib(5)
- ├─ fib(4)
- │   ├─ fib(3)
- │   └─ fib(2)
- └─ fib(3)
-
-Here you can see fib(3) is computed twice, With memoization: 
+### **Back to Memoization 🌈** 
+The above function work as this : To calculate the fib(6), yeah the 6th fibonnacci number.
+```
+fib(6)
+= fib(5) + fib(4)
+= (fib(4) + fib(3)) + (fib(3) + fib(2))
+```
+Here you can see fib(3) is computed twice and so is the fib(4) , With memoization: 
       fib(3) → computed once
       store result
-      next time → reuse stored value
+      next time → reuse stored value 
+      ... err what..??? 
+
+      >>> <<< >>> <<< >>>>
+  **Memoization means:** 
+Compute a value once, store it in memory (table/cache), and reuse it if needed again.
+For example, computers, servers, and mobile devices store frequently used data in cache so it can be accessed quickly instead of being recomputed or reloaded.
+
 
 **2. Tabulation (Bottom-Up)**
 Build a table and solve smaller subproblems first, then use them to solve larger ones.
