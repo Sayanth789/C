@@ -20,6 +20,25 @@ Solve the problem recursively and store the results of subproblems.
 (The name come form the term "memo" (remembering something)).
 Take  this example it calculate the 5th Fibonnaci number (which is either 3 or 5 - depending on 
 implementation)
+The fib function can be implemented as: 
+```
+#include <stdio.h>
+
+int fib(int n) {
+    if (n == 0)
+        return 0;
+    if (n == 1)
+        return 1;
+
+    return fib(n - 1) + fib(n - 2);
+}
+
+int main() {
+    printf("%d\n", fib(6));
+    return 0;
+}
+```
+**Guys** notice  that the function fib() is called inside the fib() function. It is called recursion. -- In case if that help. [ I ain't meant to sugarcoat things 🐈]
 
 fib(5)
  ├─ fib(4)
@@ -56,3 +75,5 @@ dp[5] = dp[4] + dp[3]
 * Shortest path algorithms
 
 Dynamic Programming is widely used to **optimize recursive algorithms and reduce time complexity**.
+
+## 🦊 That's all Folks 🦊
