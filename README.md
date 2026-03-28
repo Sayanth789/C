@@ -120,5 +120,7 @@ You can contribute by:
 ---
 
 # ⭐ Support
-
-If this repository helps you learn C programming, consider giving it a **star on GitHub**.
+### 📜 “Those who know, do. Those that understand, teach.”
+### 📜 “May thy curiosity guide thee, and may thy pursuit of knowledge never cease.” 
+## Good Luck ..... 
+##🌹 🌹 🌹
