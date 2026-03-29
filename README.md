@@ -199,4 +199,4 @@ You can contribute by:
 
 ### 📜 “May thy curiosity guide thee, and may thy pursuit of knowledge never cease.”
 
-## Good luck, and may the compiler be ever in your favor. 🌹🌹🌹
+## Good luck .... 🌹🌹🌹
