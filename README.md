@@ -1,21 +1,39 @@
 # C Programming Algorithms & Experiments
 
+![C](https://img.shields.io/badge/language-C-blue)
+![Algorithms](https://img.shields.io/badge/topic-algorithms-green)
+![License](https://img.shields.io/badge/license-MIT-orange)
+
 A collection of **C programs, algorithms, and system-level experiments** written while learning and exploring the C programming language.
 
 This repository contains implementations of **algorithms, data structures, utilities, and small experiments** designed to understand how low-level programming works.
 
 The goal of this repository is to serve as a **reference and learning resource** for programmers interested in C and systems programming.
 
+⭐ If you find this repository useful, please consider giving it a star.
+
+---
+
+# 📸 Repository Preview
+
+This repository contains implementations of classic algorithms and systems programming experiments written in C.
+
+Topics include:
+
+* Sorting Algorithms
+* Graph Algorithms
+* Dynamic Programming
+* Bit Manipulation
+* Networking (TCP Client/Server)
+* Pointer Experiments
+
 ---
 
 # 📂 Repository Navigation
 
-Click the folders below to explore the code.
-# 📂 Repository Navigation
-
 Click a folder below to explore the implementations.
 
-* 📁 [Datastructure](./Datastructure)
+* 📁 [DataStructures](./Datastructure)
 * 📁 [Dynamic Programming](./DynamicProgramming)
 * 📁 [Sorting Algorithms](./Sorting)
 * 📁 [Graphs](./graphs)
@@ -61,6 +79,39 @@ This repository includes implementations and experiments related to:
 
 ---
 
+# 🛠 Compiler Information
+
+All programs are written in **standard C** and tested using the
+entity["software","GNU Compiler Collection"] (**GCC**) on Linux.
+
+Compile most programs with:
+
+```bash
+gcc program.c -o program
+```
+
+Some programs require linking with the math library:
+
+```bash
+gcc program.c -o program -lm
+```
+
+This is needed for functions like:
+
+* `sqrt()`
+* `pow()`
+* `sin()`
+* `tgamma()`
+
+Programs may also compile with other compilers such as:
+
+* entity["software","Clang","LLVM C compiler"]
+* entity["software","Microsoft Visual C++","MSVC compiler"]
+
+though examples are primarily tested with **GCC on Linux**.
+
+---
+
 # 🚀 Getting Started
 
 Clone the repository:
@@ -80,6 +131,29 @@ Run the program:
 
 ```bash
 ./program
+```
+
+---
+
+# ⚡ Example: Binary Search
+
+```c
+int binary_search(int arr[], int n, int target) {
+    int low = 0, high = n - 1;
+
+    while (low <= high) {
+        int mid = (low + high) / 2;
+
+        if (arr[mid] == target)
+            return mid;
+        else if (arr[mid] < target)
+            low = mid + 1;
+        else
+            high = mid - 1;
+    }
+
+    return -1;
+}
 ```
 
 ---
@@ -120,7 +194,9 @@ You can contribute by:
 ---
 
 # ⭐ Support
-### 📜 “Those who know, do. Those that understand, teach.”
-### 📜 “May thy curiosity guide thee, and may thy pursuit of knowledge never cease.” 
-## Good Luck ..... 
-## 🌹 🌹 🌹
+
+### 📜 “Those who know, do. Those that understand, teach.” — Aristotle
+
+### 📜 “May thy curiosity guide thee, and may thy pursuit of knowledge never cease.”
+
+## Good luck, and may the compiler be ever in your favor. 🌹🌹🌹
