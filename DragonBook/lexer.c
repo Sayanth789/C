@@ -27,7 +27,7 @@ Identifies
 */ 
 
 
-// Lexical Anlyzer 
+// Lexer
 
 #include <stdio.h>
 #include <ctype.h>
