@@ -10,7 +10,7 @@ The lexer turns this into a stream of tokens
 [int] [identifier:x] [=] [number:10] [+] [number:20] [;]
 
 What is a lexer: 
-The lexrt classifies  pieces of text: gives them a type 
+The lexr classifies  pieces of text: gives them a type 
 Sometimes it also stores a value (called lexeme or attribute).
 
 What a lexer do:
