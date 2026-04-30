@@ -1,3 +1,17 @@
+/*
+What is heapsort ?? 
+The Core Idea of Heapsort --  It is based on a data structure called heap (specifically a max-heap).
+
+    Max heap  property.
+**Every parent  node is greater than its children.**
+* Build a max-heap from the array.
+    -> Largest element is now at the root(index 0).
+* Swap root with last element.
+-> puts the largest element in its correct final position.
+* Reduce  heap size and  fix the heap (heapify).
+* Repeat until sorted.
+*/    
+
 #include <stdio.h>
 
 int main(void)
