@@ -47,3 +47,9 @@ int main() {
     free(password);
     return 0;
 }
+
+
+/*
+$ gcc -Wall -Wextra -Wpedantic -Wshadow -Wformat=2 -std=c17 -g -fsanitize=address -fsanitize=undefined cache_mem_bug.c -o cmb
+
+*/
