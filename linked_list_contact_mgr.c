@@ -109,7 +109,7 @@ void deleteContact() {
     char name[50];
 
     printf("Enter name to delete: ");
-    scanf(" %48[^\n]", name);
+    scanf(" %49[^\n]", name);
 
     Contact *temp = head;
     Contact *prev = NULL;
