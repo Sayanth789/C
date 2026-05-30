@@ -1,0 +1,25 @@
+# compiled executables 
+rpg 
+
+# Object files 
+*.o 
+
+# Debug files 
+*.out 
+
+# GDB 
+*.core 
+
+# VS Code 
+*.vscode/
+
+# Vim swap files 
+*.swp 
+*.swo 
+
+# backup files 
+*` 
+
+# build directories 
+build/
+bin/
